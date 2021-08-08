@@ -235,21 +235,22 @@ subtlety stand out from the mode line and other adjacent faces."
   (setq bespoke-background (--l/d "#fffef9" "#282b35"))
 
   (setq bespoke-modeline   (--l/d "#e3e7ef" "#3c4353"))
-  (setq bespoke-highlight  (--l/d "#dbe1eb" "#444B5c"))
+  (setq bespoke-highlight  (--l/d "#dbe1eb" "#444b5c"))
   (setq bespoke-inactive   (--l/d "#cbd3e1" "#525868"))
 
-  (setq bespoke-critical   (--l/d "#f53137" "#f46715"))
-  (setq bespoke-salient    (--l/d "#303db4" "#88c0d0"))
+  (setq bespoke-critical   (--l/d "#f53137" "#e4003b"))
+  (setq bespoke-salient    (--l/d "#303db4" "#36dae3"))
   (setq bespoke-strong     (--l/d "#000000" "#ffffff"))
   (setq bespoke-popout     (--l/d "#940b96" "#bc85cf"))
   (setq bespoke-subtle     (--l/d "#eceff1" "#333a47"))
   (setq bespoke-faded      (--l/d "#727d97" "#959eb1"))
 
-  (setq bespoke-blue       (--l/d "#30608c" "#81a1c1"))
-  (setq bespoke-green      (--l/d "#00796b" "#8eb89d"))
+  (setq bespoke-blue       (--l/d "#30608c" "#8dbec5"))
+  (setq bespoke-green      (--l/d "#00796b" "#8dc4b9"))
   (setq bespoke-red        (--l/d "#960d36" "#bf616a"))
   (setq bespoke-brown      (--l/d "#966e53" "#d08770"))
-  (setq bespoke-yellow     (--l/d "#e0a500" "#e9b85d")))
+  (setq bespoke-yellow     (--l/d "#e0a500" "#edb458")))
+; #ffc857  
 
 ;;;; Customize Faces
 

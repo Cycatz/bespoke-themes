@@ -141,7 +141,7 @@ want to use in the modeline *as substitute for* the original.")
        ;; Show branch
        (if vc-mode
            (concat
-            "" (substring-no-properties vc-mode ;    
+            " " (substring-no-properties vc-mode ;    
                                         (+ (if (eq backend 'Hg) 2 3) 2)))  nil)))))
 
 ;; Git diff in modeline
